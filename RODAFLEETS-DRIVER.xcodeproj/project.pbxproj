@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD7A71040F652FE7077967D /* Pods_RODAFLEETS_DRIVER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225B366FDA0AE4B97B87924F /* Pods_RODAFLEETS_DRIVER.framework */; };
+		8537FE1C4C3BDA10A481CC96 /* Pods_RODAFLEETS_DRIVERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD0A35037C62E5FDB407055 /* Pods_RODAFLEETS_DRIVERUITests.framework */; };
+		8B05AA2F2215387500CE447D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05AA2E2215387500CE447D /* AppDelegate.swift */; };
+		8B05AA342215387500CE447D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B05AA322215387500CE447D /* Main.storyboard */; };
+		8B05AA362215387900CE447D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B05AA352215387900CE447D /* Assets.xcassets */; };
+		8B05AA392215387900CE447D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B05AA372215387900CE447D /* LaunchScreen.storyboard */; };
+		8B05AA442215387A00CE447D /* RODAFLEETS_DRIVERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05AA432215387A00CE447D /* RODAFLEETS_DRIVERTests.swift */; };
+		8B05AA4F2215387A00CE447D /* RODAFLEETS_DRIVERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05AA4E2215387A00CE447D /* RODAFLEETS_DRIVERUITests.swift */; };
+		8B05AA6022153C8700CE447D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05AA5F22153C8700CE447D /* CustomButton.swift */; };
+		8B05AA6322153EB100CE447D /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05AA6222153EB100CE447D /* SelectLanguageViewController.swift */; };
+		8B05AA6522153EC800CE447D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05AA6422153EC800CE447D /* LoginViewController.swift */; };
+		8BBC0934221AB8310006BEC3 /* CustomTextfieldOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC0933221AB8310006BEC3 /* CustomTextfieldOTP.swift */; };
+		8BE0CEEC2216A78E003A1B64 /* AssignmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0CEEB2216A78E003A1B64 /* AssignmentDetailViewController.swift */; };
+		8BE0CEEF2216A94D003A1B64 /* TodayBookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0CEEE2216A94D003A1B64 /* TodayBookingTableViewCell.swift */; };
+		8BE0CEF12216A960003A1B64 /* UpcomingBookingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0CEF02216A960003A1B64 /* UpcomingBookingsTableViewCell.swift */; };
+		8BE0CEF32216C720003A1B64 /* HeaderTodayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0CEF22216C720003A1B64 /* HeaderTodayTableViewCell.swift */; };
+		8BE0CEF52216C738003A1B64 /* HeaderFutureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0CEF42216C738003A1B64 /* HeaderFutureTableViewCell.swift */; };
+		8BE0CEF72216CA2E003A1B64 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0CEF62216CA2E003A1B64 /* CustomTextfield.swift */; };
+		8BFA7AF12215EB6900431411 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA7AF02215EB6900431411 /* OTPViewController.swift */; };
+		8BFA7AF32215EC2000431411 /* ConfirmDeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA7AF22215EC2000431411 /* ConfirmDeliveryViewController.swift */; };
+		8BFA7AF52215EC5000431411 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA7AF42215EC5000431411 /* OrderDetailsViewController.swift */; };
+		8BFA7AF82215F64B00431411 /* DistanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA7AF72215F64B00431411 /* DistanceTableViewCell.swift */; };
+		8BFA7AFA2215F65700431411 /* ShipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA7AF92215F65700431411 /* ShipmentTableViewCell.swift */; };
+		8BFA7AFC2215F66200431411 /* TrackingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA7AFB2215F66200431411 /* TrackingTableViewCell.swift */; };
+		F64E437E7062EFE62B5E675D /* Pods_RODAFLEETS_DRIVERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294715A5528FA76203E2C69E /* Pods_RODAFLEETS_DRIVERTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B05AA402215387A00CE447D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B05AA232215387500CE447D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B05AA2A2215387500CE447D;
+			remoteInfo = "RODAFLEETS-DRIVER";
+		};
+		8B05AA4B2215387A00CE447D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B05AA232215387500CE447D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B05AA2A2215387500CE447D;
+			remoteInfo = "RODAFLEETS-DRIVER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		225B366FDA0AE4B97B87924F /* Pods_RODAFLEETS_DRIVER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_DRIVER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		294715A5528FA76203E2C69E /* Pods_RODAFLEETS_DRIVERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_DRIVERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD0A35037C62E5FDB407055 /* Pods_RODAFLEETS_DRIVERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_DRIVERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E95D664C326367329BA9F0 /* Pods-RODAFLEETS-DRIVERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-DRIVERUITests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-DRIVERUITests/Pods-RODAFLEETS-DRIVERUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B05AA2B2215387500CE447D /* RODAFLEETS-DRIVER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RODAFLEETS-DRIVER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05AA2E2215387500CE447D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B05AA332215387500CE447D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B05AA352215387900CE447D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B05AA382215387900CE447D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B05AA3A2215387900CE447D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B05AA3F2215387A00CE447D /* RODAFLEETS-DRIVERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RODAFLEETS-DRIVERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05AA432215387A00CE447D /* RODAFLEETS_DRIVERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RODAFLEETS_DRIVERTests.swift; sourceTree = "<group>"; };
+		8B05AA452215387A00CE447D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B05AA4A2215387A00CE447D /* RODAFLEETS-DRIVERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RODAFLEETS-DRIVERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05AA4E2215387A00CE447D /* RODAFLEETS_DRIVERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RODAFLEETS_DRIVERUITests.swift; sourceTree = "<group>"; };
+		8B05AA502215387A00CE447D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B05AA5D2215393000CE447D /* bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bahnschrift.ttf; sourceTree = "<group>"; };
+		8B05AA5F22153C8700CE447D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8B05AA6222153EB100CE447D /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
+		8B05AA6422153EC800CE447D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8BBC0933221AB8310006BEC3 /* CustomTextfieldOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfieldOTP.swift; sourceTree = "<group>"; };
+		8BE0CEEB2216A78E003A1B64 /* AssignmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentDetailViewController.swift; sourceTree = "<group>"; };
+		8BE0CEEE2216A94D003A1B64 /* TodayBookingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayBookingTableViewCell.swift; sourceTree = "<group>"; };
+		8BE0CEF02216A960003A1B64 /* UpcomingBookingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingBookingsTableViewCell.swift; sourceTree = "<group>"; };
+		8BE0CEF22216C720003A1B64 /* HeaderTodayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTodayTableViewCell.swift; sourceTree = "<group>"; };
+		8BE0CEF42216C738003A1B64 /* HeaderFutureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFutureTableViewCell.swift; sourceTree = "<group>"; };
+		8BE0CEF62216CA2E003A1B64 /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
+		8BFA7AF02215EB6900431411 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		8BFA7AF22215EC2000431411 /* ConfirmDeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDeliveryViewController.swift; sourceTree = "<group>"; };
+		8BFA7AF42215EC5000431411 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		8BFA7AF72215F64B00431411 /* DistanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTableViewCell.swift; sourceTree = "<group>"; };
+		8BFA7AF92215F65700431411 /* ShipmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentTableViewCell.swift; sourceTree = "<group>"; };
+		8BFA7AFB2215F66200431411 /* TrackingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingTableViewCell.swift; sourceTree = "<group>"; };
+		9265E1F68061A9DEB87A0D74 /* Pods-RODAFLEETS-DRIVER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-DRIVER.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-DRIVER/Pods-RODAFLEETS-DRIVER.release.xcconfig"; sourceTree = "<group>"; };
+		B85549B596720D6E33B3F7F1 /* Pods-RODAFLEETS-DRIVERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-DRIVERTests.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-DRIVERTests/Pods-RODAFLEETS-DRIVERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC4405F36AB426D85026CF9 /* Pods-RODAFLEETS-DRIVERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-DRIVERUITests.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-DRIVERUITests/Pods-RODAFLEETS-DRIVERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D82E5CC9E50B5FD01254031B /* Pods-RODAFLEETS-DRIVER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-DRIVER.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-DRIVER/Pods-RODAFLEETS-DRIVER.debug.xcconfig"; sourceTree = "<group>"; };
+		DFF54CE71CE7EB8696ED3AF4 /* Pods-RODAFLEETS-DRIVERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-DRIVERTests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-DRIVERTests/Pods-RODAFLEETS-DRIVERTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B05AA282215387500CE447D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD7A71040F652FE7077967D /* Pods_RODAFLEETS_DRIVER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05AA3C2215387A00CE447D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64E437E7062EFE62B5E675D /* Pods_RODAFLEETS_DRIVERTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05AA472215387A00CE447D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8537FE1C4C3BDA10A481CC96 /* Pods_RODAFLEETS_DRIVERUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B05AA222215387500CE447D = {
+			isa = PBXGroup;
+			children = (
+				8B05AA2D2215387500CE447D /* RODAFLEETS-DRIVER */,
+				8B05AA422215387A00CE447D /* RODAFLEETS-DRIVERTests */,
+				8B05AA4D2215387A00CE447D /* RODAFLEETS-DRIVERUITests */,
+				8B05AA2C2215387500CE447D /* Products */,
+				BAA3CD0445B2B86FA6770657 /* Pods */,
+				9D53F60D897B46D514B5DA11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B05AA2C2215387500CE447D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B05AA2B2215387500CE447D /* RODAFLEETS-DRIVER.app */,
+				8B05AA3F2215387A00CE447D /* RODAFLEETS-DRIVERTests.xctest */,
+				8B05AA4A2215387A00CE447D /* RODAFLEETS-DRIVERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B05AA2D2215387500CE447D /* RODAFLEETS-DRIVER */ = {
+			isa = PBXGroup;
+			children = (
+				8B05AA5C2215391D00CE447D /* Font-Roda */,
+				8B05AA5E22153C6A00CE447D /* Views */,
+				8B05AA6122153E8E00CE447D /* Controllers */,
+				8B05AA2E2215387500CE447D /* AppDelegate.swift */,
+				8B05AA322215387500CE447D /* Main.storyboard */,
+				8B05AA352215387900CE447D /* Assets.xcassets */,
+				8B05AA372215387900CE447D /* LaunchScreen.storyboard */,
+				8B05AA3A2215387900CE447D /* Info.plist */,
+			);
+			path = "RODAFLEETS-DRIVER";
+			sourceTree = "<group>";
+		};
+		8B05AA422215387A00CE447D /* RODAFLEETS-DRIVERTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B05AA432215387A00CE447D /* RODAFLEETS_DRIVERTests.swift */,
+				8B05AA452215387A00CE447D /* Info.plist */,
+			);
+			path = "RODAFLEETS-DRIVERTests";
+			sourceTree = "<group>";
+		};
+		8B05AA4D2215387A00CE447D /* RODAFLEETS-DRIVERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B05AA4E2215387A00CE447D /* RODAFLEETS_DRIVERUITests.swift */,
+				8B05AA502215387A00CE447D /* Info.plist */,
+			);
+			path = "RODAFLEETS-DRIVERUITests";
+			sourceTree = "<group>";
+		};
+		8B05AA5C2215391D00CE447D /* Font-Roda */ = {
+			isa = PBXGroup;
+			children = (
+				8B05AA5D2215393000CE447D /* bahnschrift.ttf */,
+			);
+			path = "Font-Roda";
+			sourceTree = "<group>";
+		};
+		8B05AA5E22153C6A00CE447D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B05AA5F22153C8700CE447D /* CustomButton.swift */,
+				8BE0CEF62216CA2E003A1B64 /* CustomTextfield.swift */,
+				8BBC0933221AB8310006BEC3 /* CustomTextfieldOTP.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B05AA6122153E8E00CE447D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B05AA6222153EB100CE447D /* SelectLanguageViewController.swift */,
+				8B05AA6422153EC800CE447D /* LoginViewController.swift */,
+				8BFA7AF02215EB6900431411 /* OTPViewController.swift */,
+				8BFA7AF22215EC2000431411 /* ConfirmDeliveryViewController.swift */,
+				8BE0CEED2216A90A003A1B64 /* AssignmentsDetail */,
+				8BFA7AF62215F5B400431411 /* OrderDetails */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8BE0CEED2216A90A003A1B64 /* AssignmentsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8BE0CEEB2216A78E003A1B64 /* AssignmentDetailViewController.swift */,
+				8BE0CEF22216C720003A1B64 /* HeaderTodayTableViewCell.swift */,
+				8BE0CEEE2216A94D003A1B64 /* TodayBookingTableViewCell.swift */,
+				8BE0CEF02216A960003A1B64 /* UpcomingBookingsTableViewCell.swift */,
+				8BE0CEF42216C738003A1B64 /* HeaderFutureTableViewCell.swift */,
+			);
+			path = AssignmentsDetail;
+			sourceTree = "<group>";
+		};
+		8BFA7AF62215F5B400431411 /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8BFA7AF42215EC5000431411 /* OrderDetailsViewController.swift */,
+				8BFA7AF72215F64B00431411 /* DistanceTableViewCell.swift */,
+				8BFA7AF92215F65700431411 /* ShipmentTableViewCell.swift */,
+				8BFA7AFB2215F66200431411 /* TrackingTableViewCell.swift */,
+			);
+			path = OrderDetails;
+			sourceTree = "<group>";
+		};
+		9D53F60D897B46D514B5DA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225B366FDA0AE4B97B87924F /* Pods_RODAFLEETS_DRIVER.framework */,
+				294715A5528FA76203E2C69E /* Pods_RODAFLEETS_DRIVERTests.framework */,
+				4BD0A35037C62E5FDB407055 /* Pods_RODAFLEETS_DRIVERUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAA3CD0445B2B86FA6770657 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D82E5CC9E50B5FD01254031B /* Pods-RODAFLEETS-DRIVER.debug.xcconfig */,
+				9265E1F68061A9DEB87A0D74 /* Pods-RODAFLEETS-DRIVER.release.xcconfig */,
+				B85549B596720D6E33B3F7F1 /* Pods-RODAFLEETS-DRIVERTests.debug.xcconfig */,
+				DFF54CE71CE7EB8696ED3AF4 /* Pods-RODAFLEETS-DRIVERTests.release.xcconfig */,
+				CDC4405F36AB426D85026CF9 /* Pods-RODAFLEETS-DRIVERUITests.debug.xcconfig */,
+				86E95D664C326367329BA9F0 /* Pods-RODAFLEETS-DRIVERUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B05AA2A2215387500CE447D /* RODAFLEETS-DRIVER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B05AA532215387A00CE447D /* Build configuration list for PBXNativeTarget "RODAFLEETS-DRIVER" */;
+			buildPhases = (
+				90D35DDAF13EFF635BDF0939 /* [CP] Check Pods Manifest.lock */,
+				8B05AA272215387500CE447D /* Sources */,
+				8B05AA282215387500CE447D /* Frameworks */,
+				8B05AA292215387500CE447D /* Resources */,
+				9FCAA1478602574A46F17FD7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RODAFLEETS-DRIVER";
+			productName = "RODAFLEETS-DRIVER";
+			productReference = 8B05AA2B2215387500CE447D /* RODAFLEETS-DRIVER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B05AA3E2215387A00CE447D /* RODAFLEETS-DRIVERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B05AA562215387A00CE447D /* Build configuration list for PBXNativeTarget "RODAFLEETS-DRIVERTests" */;
+			buildPhases = (
+				840E8EFC7DC4BD735B212D19 /* [CP] Check Pods Manifest.lock */,
+				8B05AA3B2215387A00CE447D /* Sources */,
+				8B05AA3C2215387A00CE447D /* Frameworks */,
+				8B05AA3D2215387A00CE447D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B05AA412215387A00CE447D /* PBXTargetDependency */,
+			);
+			name = "RODAFLEETS-DRIVERTests";
+			productName = "RODAFLEETS-DRIVERTests";
+			productReference = 8B05AA3F2215387A00CE447D /* RODAFLEETS-DRIVERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B05AA492215387A00CE447D /* RODAFLEETS-DRIVERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B05AA592215387A00CE447D /* Build configuration list for PBXNativeTarget "RODAFLEETS-DRIVERUITests" */;
+			buildPhases = (
+				004D9047C2390451879E4750 /* [CP] Check Pods Manifest.lock */,
+				8B05AA462215387A00CE447D /* Sources */,
+				8B05AA472215387A00CE447D /* Frameworks */,
+				8B05AA482215387A00CE447D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B05AA4C2215387A00CE447D /* PBXTargetDependency */,
+			);
+			name = "RODAFLEETS-DRIVERUITests";
+			productName = "RODAFLEETS-DRIVERUITests";
+			productReference = 8B05AA4A2215387A00CE447D /* RODAFLEETS-DRIVERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B05AA232215387500CE447D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Neuweg Technologies";
+				TargetAttributes = {
+					8B05AA2A2215387500CE447D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8B05AA3E2215387A00CE447D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8B05AA2A2215387500CE447D;
+					};
+					8B05AA492215387A00CE447D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8B05AA2A2215387500CE447D;
+					};
+				};
+			};
+			buildConfigurationList = 8B05AA262215387500CE447D /* Build configuration list for PBXProject "RODAFLEETS-DRIVER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B05AA222215387500CE447D;
+			productRefGroup = 8B05AA2C2215387500CE447D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B05AA2A2215387500CE447D /* RODAFLEETS-DRIVER */,
+				8B05AA3E2215387A00CE447D /* RODAFLEETS-DRIVERTests */,
+				8B05AA492215387A00CE447D /* RODAFLEETS-DRIVERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B05AA292215387500CE447D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05AA392215387900CE447D /* LaunchScreen.storyboard in Resources */,
+				8B05AA362215387900CE447D /* Assets.xcassets in Resources */,
+				8B05AA342215387500CE447D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05AA3D2215387A00CE447D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05AA482215387A00CE447D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		004D9047C2390451879E4750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RODAFLEETS-DRIVERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840E8EFC7DC4BD735B212D19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RODAFLEETS-DRIVERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D35DDAF13EFF635BDF0939 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RODAFLEETS-DRIVER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FCAA1478602574A46F17FD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-DRIVER/Pods-RODAFLEETS-DRIVER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSignatureView/SwiftSignatureView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSignatureView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-DRIVER/Pods-RODAFLEETS-DRIVER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B05AA272215387500CE447D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE0CEF12216A960003A1B64 /* UpcomingBookingsTableViewCell.swift in Sources */,
+				8BFA7AF12215EB6900431411 /* OTPViewController.swift in Sources */,
+				8BE0CEF32216C720003A1B64 /* HeaderTodayTableViewCell.swift in Sources */,
+				8BFA7AF32215EC2000431411 /* ConfirmDeliveryViewController.swift in Sources */,
+				8BE0CEF72216CA2E003A1B64 /* CustomTextfield.swift in Sources */,
+				8BFA7AFA2215F65700431411 /* ShipmentTableViewCell.swift in Sources */,
+				8BFA7AF82215F64B00431411 /* DistanceTableViewCell.swift in Sources */,
+				8BFA7AFC2215F66200431411 /* TrackingTableViewCell.swift in Sources */,
+				8B05AA6322153EB100CE447D /* SelectLanguageViewController.swift in Sources */,
+				8BE0CEEC2216A78E003A1B64 /* AssignmentDetailViewController.swift in Sources */,
+				8B05AA2F2215387500CE447D /* AppDelegate.swift in Sources */,
+				8BE0CEF52216C738003A1B64 /* HeaderFutureTableViewCell.swift in Sources */,
+				8BFA7AF52215EC5000431411 /* OrderDetailsViewController.swift in Sources */,
+				8B05AA6522153EC800CE447D /* LoginViewController.swift in Sources */,
+				8BBC0934221AB8310006BEC3 /* CustomTextfieldOTP.swift in Sources */,
+				8B05AA6022153C8700CE447D /* CustomButton.swift in Sources */,
+				8BE0CEEF2216A94D003A1B64 /* TodayBookingTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05AA3B2215387A00CE447D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05AA442215387A00CE447D /* RODAFLEETS_DRIVERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05AA462215387A00CE447D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05AA4F2215387A00CE447D /* RODAFLEETS_DRIVERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B05AA412215387A00CE447D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B05AA2A2215387500CE447D /* RODAFLEETS-DRIVER */;
+			targetProxy = 8B05AA402215387A00CE447D /* PBXContainerItemProxy */;
+		};
+		8B05AA4C2215387A00CE447D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B05AA2A2215387500CE447D /* RODAFLEETS-DRIVER */;
+			targetProxy = 8B05AA4B2215387A00CE447D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B05AA322215387500CE447D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B05AA332215387500CE447D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B05AA372215387900CE447D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B05AA382215387900CE447D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B05AA512215387A00CE447D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B05AA522215387A00CE447D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B05AA542215387A00CE447D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82E5CC9E50B5FD01254031B /* Pods-RODAFLEETS-DRIVER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-DRIVER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-DRIVER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B05AA552215387A00CE447D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9265E1F68061A9DEB87A0D74 /* Pods-RODAFLEETS-DRIVER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-DRIVER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-DRIVER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B05AA572215387A00CE447D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85549B596720D6E33B3F7F1 /* Pods-RODAFLEETS-DRIVERTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-DRIVERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-DRIVERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RODAFLEETS-DRIVER.app/RODAFLEETS-DRIVER";
+			};
+			name = Debug;
+		};
+		8B05AA582215387A00CE447D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF54CE71CE7EB8696ED3AF4 /* Pods-RODAFLEETS-DRIVERTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-DRIVERTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-DRIVERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RODAFLEETS-DRIVER.app/RODAFLEETS-DRIVER";
+			};
+			name = Release;
+		};
+		8B05AA5A2215387A00CE447D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC4405F36AB426D85026CF9 /* Pods-RODAFLEETS-DRIVERUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-DRIVERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-DRIVERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RODAFLEETS-DRIVER";
+			};
+			name = Debug;
+		};
+		8B05AA5B2215387A00CE447D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E95D664C326367329BA9F0 /* Pods-RODAFLEETS-DRIVERUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = "RODAFLEETS-DRIVERUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neuweg.RODAFLEETS-DRIVERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RODAFLEETS-DRIVER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B05AA262215387500CE447D /* Build configuration list for PBXProject "RODAFLEETS-DRIVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05AA512215387A00CE447D /* Debug */,
+				8B05AA522215387A00CE447D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B05AA532215387A00CE447D /* Build configuration list for PBXNativeTarget "RODAFLEETS-DRIVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05AA542215387A00CE447D /* Debug */,
+				8B05AA552215387A00CE447D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B05AA562215387A00CE447D /* Build configuration list for PBXNativeTarget "RODAFLEETS-DRIVERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05AA572215387A00CE447D /* Debug */,
+				8B05AA582215387A00CE447D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B05AA592215387A00CE447D /* Build configuration list for PBXNativeTarget "RODAFLEETS-DRIVERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05AA5A2215387A00CE447D /* Debug */,
+				8B05AA5B2215387A00CE447D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B05AA232215387500CE447D /* Project object */;
+}

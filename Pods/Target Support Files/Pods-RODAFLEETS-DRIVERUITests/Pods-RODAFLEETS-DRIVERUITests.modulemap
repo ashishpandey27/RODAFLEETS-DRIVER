@@ -1,0 +1,6 @@
+framework module Pods_RODAFLEETS_DRIVERUITests {
+  umbrella header "Pods-RODAFLEETS-DRIVERUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

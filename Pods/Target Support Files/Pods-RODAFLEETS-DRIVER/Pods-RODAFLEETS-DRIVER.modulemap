@@ -1,0 +1,6 @@
+framework module Pods_RODAFLEETS_DRIVER {
+  umbrella header "Pods-RODAFLEETS-DRIVER-umbrella.h"
+
+  export *
+  module * { export * }
+}
